@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #5a61bc;
+    --secondary-color: #eaecf8;
+    --default-color: #f5f6fa;
+    --icon-color: #868ce5;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8a8fd2;
+}
+
+.primary-color {
+    color: var(--primary-color) !Important;
+}
+
+.secondary-color {
+    color: var(--secondary-color) !Important;
+}
+
+.primary-bgcolor {
+    background-color: var(--primary-color) !Important;
+}
+
+.secondary-bgcolor {
+    background-color: var(--secondary-color) !Important;
+}
+
+.default-bgcolor {
+    background-color: var(--default-color) !Important;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.profileBTN {
+    background-color: #fff !Important;
+    color: #000000 !Important;
+}
+
+/* .MuiDrawer-root .MuiPaper-root
+{
+    background-color: var(--primary-color);
+} */
+
+.breadCrumbLink {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.breadCrumbLink:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.6);
+}
+
+.mb-6px {
+    margin-bottom: 6px !Important;
+}
+
+.panel-header svg {
+    display: none;
+}
+
+.edit-btn:hover {
+    color: #4b4bd2 !Important;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: #e33b3b !Important;
+    cursor: pointer;
+}
+
+.loading .MuiCircularProgress-root {
+    height: 50px !Important;
+    width: 50px !Important;
+}
+
+.MuiCircularProgress-root svg {
+    color: var(--primary-color)
+}
+
+.submit-loading .MuiButton-icon .MuiCircularProgress-root {
+    height: 20px !Important;
+    width: 20px !Important;
+}
+
+.submit-loading .MuiButton-icon .MuiCircularProgress-root svg {
+    color: #fff;
+}
+
+.userInfo-li:hover {
+    background-color: #fff !Important;
+}
+
+.icon-color {
+    color: var(--icon-color) !Important;
+}
+
+.search .MuiInputBase-root fieldset {
+    border: none;
+}
+
+.search .MuiInputBase-root input {
+    padding: 0;
+    padding-left: 15px;
+}
+
+.d-block {
+    display: block !Important;
+}
+
+.MuiDataGrid-columnHeaderTitle{
+    font-size: 17px!Important;
+    font-weight: bold!Important;
+    padding-left: 15px;
+}
+
+.MuiDataGrid-cell{
+    font-size: 15px!Important;
+    padding-left: 25px!Important;
+}
+
+.MuiDataGrid-cell:focus, .MuiDataGrid-columnHeader:focus{
+    outline: none!Important;
+}
