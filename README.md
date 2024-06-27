@@ -18,4 +18,4 @@ React-Router-Dom - use for Client Side Routing,
 Chart.js,react-chartjs-2 - use for create a Chart
 
 
-start with -- npm run dev
+start with :- npm run dev
